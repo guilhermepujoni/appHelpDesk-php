@@ -1,0 +1,37 @@
+* { margin: 0; }
+
+/*  Cabeçalho das páginas */
+body header {
+    background: rgb(31, 31, 68);}
+
+#caixalogo {
+    float: left;
+    padding: 6px;
+    width: 60px;}
+
+#caixalogo img {
+    width: 50px;
+    margin-left: 3px;}
+
+#caixanome {
+    float: left;
+    padding-top: 19px;
+    font-size: 19px;
+    color: white;
+}
+
+header #botaosair {
+    
+    margin: 12px;
+    float: right;
+    width: 36px;
+    border-radius: 50%;
+}
+header #botaosair:hover {
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+header #botaosair img{
+    width: 100%;
+}
